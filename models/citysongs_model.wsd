@@ -1,0 +1,9 @@
+@startuml
+
+class Song
+class City
+class SongCityRelation
+
+SongCityRelation *-- City
+
+@enduml
